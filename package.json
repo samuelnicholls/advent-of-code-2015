@@ -2,6 +2,11 @@
   "name": "advent-of-code-2015",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "format": "bunx --bun @biomejs/biome format ./src --write",
+		"lint": "bunx --bun @biomejs/biome lint ./src --write"
+  },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/bun": "latest"
